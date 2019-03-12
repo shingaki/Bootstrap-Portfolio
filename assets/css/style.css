@@ -6,15 +6,17 @@
 
 /* white box at the top*/
 .heading-box {
-    position: absolute;
-    left: 400px;
+    position: relative;
     height: 45px;
-    width: 1000px;
-    background: white;
+    width: 100%;
+    background: pink;
     border: solid 1px black;
 }
 
-
+.mainheading {
+    position: absolute;
+    top: -45px;
+}
 /* turquose box at the top*/
 .heading-box-1 {
     top: -1px;
