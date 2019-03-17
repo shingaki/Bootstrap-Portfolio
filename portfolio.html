@@ -2,100 +2,74 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>About Me</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/style1.css">
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-<div class="container">
-    <div class="row">
-        <div class="col-md-12, heading-box">
-            <div class="row">
-                <div class="col-sm-2">
-                </div>
-                <div class="col-sm-3, heading-box-1">
-                    <a href="index.html">
-                        <h4>Tamami Shingaki Polk</h4></a>
+<div>
+    <nav class="navbar navbar-expand-lg navbar-light heading-box">
+        <a class="navbar-brand heading-box-1" href="index.html"><h4>Tamami Shingaki Polk</h4></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-                </div>
-                <div class="col-sm-1">
-                </div>
-                <div class="col=md-6">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-            </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
         </div>
+    </nav>
+</div>
+
+
+<div class="container container-margin">
+    <div class="row section-background">
+        <div class="col-md-10 add-indentation"><h5>Portfolio</h5>
+            <hr></div>
     </div>
-</div>
+     <div class="row section-portfolio-0">
+                        <div class="col-md-3 baseball"><img src="./assets/images/baseball.jpg" alt="Baseball">
+                        <div class="banner">Baseball</div></div>
 
+                        <div class="col-md-3 cyclist"><img src="./assets/images/cyclist.jpg" alt="Cyclist">
+                         <div class="banner">Cyclist</div></div>
+     </div>
+      <div class="row section-portfolio-1">
+                        <div class="col-md-3 karate"><img src="./assets/images/karate.jpg" alt="Karate">
+                        <div class="banner">Karate</div></div>
+                        <div class="col-md-3 motorbike"><img src="./assets/images/motorbikes.jpg" alt="Motorbikes">
+                        <div class="banner">Motor Bikes</div></div>
+      </div>
+    <div class="row section-portfolio-2">
+        <div class="col-md-3 surfing"><img src="./assets/images/surfing.jpg" alt="Surfing">
+            <div class="banner">Surfing</div></div>
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-12 main-background">
-            <div class="row" style="padding-top:100px;">
-                <div class="col-sm-2">
-                </div>
-                <div class="col-sm-8 section-background">
-                    <div class="row">
-                        <!--<div class="col-md-1">-->
-                        <!--</div>-->
-                        <div class="col-md-12"><h5>My Portfolio</h5>
-                            <hr>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3"><img src="./assets/images/baseball.jpg" alt="Baseball">
-                            <div class="col-md-3">
-                                <div class="banner">Baseball</div></div></div>
-                        <div class="col-md-3"><img src="./assets/images/cyclist.jpg" alt="Cyclist">
-                            <div class="col-md-3">
-                                <div class="banner">Cyclist</div></div></div>
-                    </div>
-                    <div class="row pad-row">
-                    <div class="col-md-3"><img src="./assets/images/karate.jpg" alt="Karate">
-                        <div class="col-md-3"><div class="banner">Karate</div></div></div>
-                    <div class="col-md-3"><img src="./assets/images/motorbikes.jpg" alt="Motorbikes">
-                        <div class="col-md-3"><div class="banner">Motor Bikes</div></div></div>
-                    </div>
-                    <div class="row pad-row">
-                        <div class="col-md-3"><img src="./assets/images/surfing.jpg" alt="Surfing">
-                            <div class="col-md-3"><div class="banner">Surfing</div></div></div>
-                    </div>
-
-                </div>
-                </div>
-            </div>
-        </div>
-</div>
-</div>
-
-
-
-<div class="container">
-    <div class="row">
-        <div class="col-md-12, box-footer"> <h6>&copy; Copyright</h6>
-        </div>
     </div>
+
 </div>
+
+
+
+<div class="box-footer"> <h6>&copy; Copyright</h6></div>
+
 
 
 </body>

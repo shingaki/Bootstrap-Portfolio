@@ -5,7 +5,7 @@
     top: -600px;
     left: 100px;
     width: 960px;
-    height: 350px;
+    height: 300px;
     padding: 10px;
     veritcal-align: middle;
     background: #ffffff;
@@ -17,3 +17,6 @@
     margin-right: 5px;
 }
 
+.remove-space {
+    top: 500px;
+}
